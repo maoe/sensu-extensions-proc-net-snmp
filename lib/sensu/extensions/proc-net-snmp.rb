@@ -102,7 +102,7 @@ module Sensu
             end
             unless values.empty?
               metrics.zip(values) do |metric, value|
-                add_metric('net', 'snmp', proto.downcase, metric.downcase, value)
+                add_metric(proto.downcase, metric.downcase, value)
               end
             end
           end
