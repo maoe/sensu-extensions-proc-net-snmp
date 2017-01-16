@@ -145,4 +145,4 @@ Bug reports and pull requests are welcome on GitHub at https://github.com/maoe/s
 
 ## License
 
-The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
+The gem is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT). The code is largely taken from the [sensu-extensions/sensu-extensions-system-profile](https://github.com/sensu-extensions/sensu-extensions-system-profile) project. The corresponding LICENSE file is LICENSE.sensu-extensions-system-profile.
