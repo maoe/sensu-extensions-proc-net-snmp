@@ -1,4 +1,6 @@
 # Sensu /proc/net/snmp metrics extension
+[![Gem Version](https://badge.fury.io/rb/sensu-extensions-proc-net-snmp.svg)](https://badge.fury.io/rb/sensu-extensions-proc-net-snmp)
+[![Build Status](https://travis-ci.org/maoe/sensu-extensions-proc-net-snmp.svg?branch=master)](https://travis-ci.org/maoe/sensu-extensions-proc-net-snmp)
 
 This check extension collects metrics in `/proc/net/snmp` on Linux and format them in the Graphite plaintext format. Sensu can send the collected metrics to Graphite or another TSDB as as InfluxDB.
 
